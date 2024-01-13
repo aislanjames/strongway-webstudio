@@ -1,0 +1,122 @@
+header {
+    background-color: #000;
+    height: 200px;
+    justify-content: center;
+}
+div#first-menu {
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+div#logotipo img {
+    transition: transform .2s;
+}
+
+div#logotipo img:hover {
+    transform: scale(1.2);
+}
+
+div#first-menu-option, div#logotipo {
+    border-right: 1px solid #434343;
+    padding-right: 70px;
+    height: 100%;
+}
+div#first-menu-option:last-child {
+    border: none;
+    padding: 0;
+}
+
+div#first-menu a {
+    padding-top: 70px;
+}
+
+div#first-menu a:hover, div#second-menu-option a:hover {
+    color: #c9c9c9;
+}
+
+header a, button {
+    color: #fff;
+}
+body {
+    background-color: #c9c9c9;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+main {
+    background-color: #434343;
+    padding-top: 30px;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+aside {
+    width: 100%;
+    margin-bottom: auto;
+}
+
+div#page {
+    background-color: #fff;
+    padding: 15px;
+    max-width: 1170px;
+}
+main, aside a {
+    color: #000;
+}
+
+aside div:last-child{
+    box-shadow: 0px 3px 7px -3px rgba(0, 0, 0, 0.5)
+}
+
+aside h2, aside div{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}
+
+aside h2 {
+    margin-bottom: 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #000;
+    text-wrap: nowrap;
+}
+
+div#content {
+    padding: 20px 40px;
+}
+
+button {
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #c9c9c9;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, div#first-menu, div#first-menu-option, div#logotipo, div#page {
+    display: flex;
+    align-items: center;
+}
+
+div#first-menu, main {
+    width: 1170px;
+}
